@@ -1,17 +1,17 @@
 ﻿@model Proyectonext.ViewModels.UsersVM;
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title> Login </title>
+    <title> Registrarse </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
-    <div class="justify-content-cente">Login</div>
     <div>
         <div class="row mt-5 justify-content-center">
             <div class="col-sm-4">
                 <div classrc="card-body">
+                    <center><p>Login</p></center>
                     <form asp-controller="Acceso" method="post" asp-action="Login">
-                        <input class="form-control mb-3" type="text" placeholder="Usuario" required asp-for="UserName" />
+                        <input class="form-control mb-3" type="text" placeholder="Mail" required asp-for="Mail" />
                         <input class="form-control mb-3" type="text" placeholder="Password" required asp-for="Password" />
                         @if (ViewData["Mensaje"] != null)
                         {
@@ -20,7 +20,7 @@
                             </div>
                         }
                         <div class="d-grid gap-2 mb-3">
-                            <button class="btn btn-info" type="submit"> Iniciar Sesion</button>
+                            <button class="btn btn-info" type="submit"> Ingresar</button>
                         </div>
                     </form>
                 </div>

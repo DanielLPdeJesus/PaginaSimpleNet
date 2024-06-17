@@ -134,3 +134,4 @@ D:\Proyectos\ProyectosNet\Proyectonext\obj\Debug\net8.0\refint\Proyectonext.dll
 D:\Proyectos\ProyectosNet\Proyectonext\obj\Debug\net8.0\Proyectonext.pdb
 D:\Proyectos\ProyectosNet\Proyectonext\obj\Debug\net8.0\Proyectonext.genruntimeconfig.cache
 D:\Proyectos\ProyectosNet\Proyectonext\obj\Debug\net8.0\ref\Proyectonext.dll
+D:\Proyectos\ProyectosNet\Proyectonext\obj\Debug\net8.0\Proyectonext.sourcelink.json
